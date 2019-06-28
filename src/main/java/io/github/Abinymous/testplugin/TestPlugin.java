@@ -4,12 +4,13 @@ import org.bukkit.command.*;
 import org.bukkit.entity.*;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class TestPlugin extends JavaPlugin
+public class TestPlugin extends JavaPlugin implements CommandExecutor
 {
     @Override
     public void onEnable()
     {
     	getLogger().info("onEnable has been invoked!");
+    	this.getCommand("hi").setExecutor(this);
     }
     
     @Override
