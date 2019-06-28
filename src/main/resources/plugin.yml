@@ -5,6 +5,5 @@ author: Abbi
 commands:
   hi:
     description: This is a demo command.
-    usage: /hi [player]
+    usage: /hi
     permission: TestPlugin.hi
-    permission-message: You don't have "some.pointless.thing"
