@@ -1,0 +1,10 @@
+name: TestPlugin
+main: io.github.Abinymous.testplugin.TestPlugin
+version: 1.0
+author: Abbi
+commands:
+  hi:
+    description: This is a demo command.
+    usage: /hi [player]
+    permission: TestPlugin.hi
+    permission-message: You don't have "some.pointless.thing"
